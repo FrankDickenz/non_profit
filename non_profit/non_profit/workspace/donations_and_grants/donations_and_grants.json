@@ -1,0 +1,129 @@
+{
+ "charts": [
+  {
+   "chart_name": "DONATIONS",
+   "label": "DONATIONS"
+  }
+ ],
+ "content": "[{\"id\":\"dt9zIoa00s\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>DONATIONS AND GRANTS</b></span>\",\"col\":12}},{\"id\":\"Ugg7e9BOsH\",\"type\":\"card\",\"data\":{\"card_name\":\"Donation\",\"col\":4}},{\"id\":\"Tp8WaLL3-E\",\"type\":\"card\",\"data\":{\"card_name\":\"Grant Application\",\"col\":4}},{\"id\":\"CL3O23z01v\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"ZLNvvsatsB\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>DASHBOARD</b></span>\",\"col\":12}},{\"id\":\"wLWVhttyg9\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"DONORS\",\"col\":4}},{\"id\":\"ukyUQ0RqNM\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Donations\",\"col\":4}},{\"id\":\"71I980XrvH\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"GRANTS (Approved)\",\"col\":4}},{\"id\":\"Ot28XBj9TJ\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"ksbzUNBVmw\",\"type\":\"chart\",\"data\":{\"chart_name\":\"DONATIONS\",\"col\":12}}]",
+ "creation": "2020-03-02 17:23:47.811421",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "non-profit",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "Donations And Grants",
+ "links": [
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Loan Type",
+   "link_count": 0,
+   "link_to": "Loan Type",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Loan Application",
+   "link_count": 0,
+   "link_to": "Loan Application",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Loan",
+   "link_count": 0,
+   "link_to": "Loan",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Grant Application",
+   "link_count": 1,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Grant Application",
+   "link_count": 0,
+   "link_to": "Grant Application",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Donation",
+   "link_count": 2,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "dependencies": "",
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Donor",
+   "link_count": 0,
+   "link_to": "Donor",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Donation",
+   "link_count": 0,
+   "link_to": "Donation",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2023-06-21 09:48:23.995765",
+ "modified_by": "Administrator",
+ "module": "Non Profit",
+ "name": "Donations And Grants",
+ "number_cards": [
+  {
+   "label": "GRANTS (Approved)",
+   "number_card_name": "GRANTS (Approved)"
+  },
+  {
+   "label": "Total Donations",
+   "number_card_name": "DONATIONS"
+  },
+  {
+   "label": "DONORS",
+   "number_card_name": "DONORS"
+  }
+ ],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "restrict_to_domain": "Non Profit",
+ "roles": [],
+ "sequence_id": 14.0,
+ "shortcuts": [],
+ "title": "Donations And Grants"
+}
