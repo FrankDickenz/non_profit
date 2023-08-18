@@ -5,7 +5,7 @@
    "label": "DONATIONS"
   }
  ],
- "content": "[{\"id\":\"dt9zIoa00s\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>DONATIONS AND GRANTS</b></span>\",\"col\":12}},{\"id\":\"Ugg7e9BOsH\",\"type\":\"card\",\"data\":{\"card_name\":\"Donation\",\"col\":4}},{\"id\":\"Tp8WaLL3-E\",\"type\":\"card\",\"data\":{\"card_name\":\"Grant Application\",\"col\":4}},{\"id\":\"CL3O23z01v\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"ZLNvvsatsB\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>DASHBOARD</b></span>\",\"col\":12}},{\"id\":\"wLWVhttyg9\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"DONORS\",\"col\":4}},{\"id\":\"ukyUQ0RqNM\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Donations\",\"col\":4}},{\"id\":\"71I980XrvH\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"GRANTS (Approved)\",\"col\":4}},{\"id\":\"Ot28XBj9TJ\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"ksbzUNBVmw\",\"type\":\"chart\",\"data\":{\"chart_name\":\"DONATIONS\",\"col\":12}}]",
+ "content": "[{\"id\":\"dt9zIoa00s\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>DONATIONS AND GRANTS</b></span>\",\"col\":12}},{\"id\":\"Ugg7e9BOsH\",\"type\":\"card\",\"data\":{\"card_name\":\"Donation\",\"col\":4}},{\"id\":\"Tp8WaLL3-E\",\"type\":\"card\",\"data\":{\"card_name\":\"Grant Application\",\"col\":4}},{\"id\":\"CL3O23z01v\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"ZLNvvsatsB\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>DASHBOARD</b></span>\",\"col\":12}},{\"id\":\"wLWVhttyg9\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"DONORS\",\"col\":4}},{\"id\":\"ukyUQ0RqNM\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Total Donations\",\"col\":4}},{\"id\":\"Ot28XBj9TJ\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"ksbzUNBVmw\",\"type\":\"chart\",\"data\":{\"chart_name\":\"DONATIONS\",\"col\":12}},{\"id\":\"XMKLZyIoVm\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"JK0d1hHd3S\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"GRANTS (Open)\",\"col\":4}},{\"id\":\"CirTBBNBM9\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"GRANTS (In-Progress)\",\"col\":4}},{\"id\":\"NOcEda--Nq\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"GRANTS (Approved)\",\"col\":4}}]",
  "creation": "2020-03-02 17:23:47.811421",
  "custom_blocks": [],
  "docstatus": 0,
@@ -99,18 +99,26 @@
    "type": "Link"
   }
  ],
- "modified": "2023-06-21 09:48:23.995765",
+ "modified": "2023-06-27 12:40:50.803762",
  "modified_by": "Administrator",
  "module": "Non Profit",
  "name": "Donations And Grants",
  "number_cards": [
   {
-   "label": "GRANTS (Approved)",
-   "number_card_name": "GRANTS (Approved)"
+   "label": "GRANTS (Open)",
+   "number_card_name": "GRANTS (Open)"
+  },
+  {
+   "label": "GRANTS (In-Progress)",
+   "number_card_name": "GRANTS (In-Progress)"
   },
   {
    "label": "Total Donations",
    "number_card_name": "DONATIONS"
+  },
+  {
+   "label": "GRANTS (Approved)",
+   "number_card_name": "GRANTS (Approved)"
   },
   {
    "label": "DONORS",
@@ -123,7 +131,7 @@
  "quick_lists": [],
  "restrict_to_domain": "Non Profit",
  "roles": [],
- "sequence_id": 14.0,
+ "sequence_id": 24.0,
  "shortcuts": [],
  "title": "Donations And Grants"
 }
